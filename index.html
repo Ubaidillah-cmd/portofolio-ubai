@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Ubaidillah</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">Ubai.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="gradient-text">Ubaidillah Developer</h1>
+            <h2 class="typing-text"></h2>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <a href="#" class="btn-outline">Download CV</a>
+            </div>
+        </div>
+
+        <div class="glow-bg"></div>
+    </header>
+
+    <section class="about" id="about">
+    <div class="about-container">
+
+        <div class="about-image">
+            <img src="assest/ubai.jpg" alt="Foto Profil">
+        </div>
+
+        <div class="about-content">
+            <h2 class="section-title">About Me</h2>
+            <p>
+                Saya adalah seorang Web Developer yang berfokus pada
+                desain modern, clean, dan premium. Saya menyukai
+                teknologi, eksplorasi UI/UX, dan membangun sistem yang
+                elegan serta efisien.
+            </p>
+
+            <div class="stats">
+                <div class="stat">
+                    <h3 class="counter" data-target="10">4</h3>
+                    <p>Projects</p>
+                </div>
+                <div class="stat">
+                    <h3 class="counter" data-target="2">2+</h3>
+                    <p>Years Learning</p>
+                </div>
+                <div class="stat">
+                    <h3 class="counter" data-target="15">10+</h3>
+                    <p>Technologies</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <section class="skills" id="skills">
+    <h2 class="section-title center">My Skills</h2>
+
+    <div class="skills-container">
+
+        <!-- Progress Skills -->
+        <div class="skill-bars">
+            <div class="skill">
+                <p>HTML <span>90%</span></p>
+                <div class="progress">
+                    <div class="progress-html" data-progress="90"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>CSS <span>85%</span></p>
+                <div class="progress">
+                    <div class="progress-css" data-progress="85"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>JavaScript <span>75%</span></p>
+                <div class="progress">
+                    <div class="progress-java" data-progress="75"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Circular Skills -->
+        <div class="circular-skills">
+
+            <div class="circle" data-percent="80">
+                <svg width="120" height="120">
+                    <circle cx="60" cy="60" r="50"></circle>
+                    <circle cx="60" cy="60" r="50" class="progress-circle"></circle>
+                </svg>
+                <div class="circle-text">80%</div>
+                <h3>UI/UX</h3>
+            </div>
+
+            <div class="circle" data-percent="75">
+                <svg width="120" height="120">
+                    <circle cx="60" cy="60" r="50"></circle>
+                    <circle cx="60" cy="60" r="50" class="progress-circle"></circle>
+                </svg>
+                <div class="circle-text">75%</div>
+                <h3>MySQL</h3>
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <section class="projects" id="projects">
+    <h2 class="section-title center">My Projects</h2>
+
+    <div class="projects-container">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="assest/baikastore.png" alt="Project 1">
+                <div class="project-overlay">
+                    <h3>Baika Store</h3>
+                    <p>Sistem penjualan koin virtual berbasis HTML , CSS dan JAVA</p>
+
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://ubaidillah-cmd.github.io/BaikaStore/" class="project-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="assest/ulangtahun.png" alt="Project 2">
+                <div class="project-overlay">
+                    <h3>Kado Ulang Tahun</h3>
+                    <p>Sistem kejutan ulang tahun yg isinya berbagai foto kenangan</p>
+
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+
+                    <a href="https://ubaidillah-cmd.github.io/Happy/" class="project-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+
+<h2 class="section-title center">Let's Work Together</h2>
+
+<p class="contact-subtitle">
+Punya ide project atau ingin bekerja sama? Hubungi saya langsung.
+</p>
+
+<div class="contact-cards">
+
+    <!-- WhatsApp -->
+    <a href="https://wa.me/6282333408651" target="_blank" class="contact-card">
+        <div class="contact-icon">💬</div>
+        <h3>WhatsApp</h3>
+        <p>Chat langsung untuk diskusi project</p>
+    </a>
+
+    <!-- Email -->
+    <a href="mailto:rahmanabdur7511@gmail.com" class="contact-card">
+        <div class="contact-icon">📧</div>
+        <h3>Email</h3>
+        <p>Kirim proposal atau pertanyaan</p>
+    </a>
+
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/abdur-rahman-ubaidillah-875608331" class="contact-card">
+        <div class="contact-icon">💼</div>
+        <h3>LinkedIn</h3>
+        <p>Terhubung secara profesional</p>
+    </a>
+
+</div>
+
+</section>
+
+    <!-- FLOATING WHATSAPP -->
+    <a href="https://wa.me/6282333408651" 
+        class="floating-wa" 
+        target="_blank">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+        width="28" height="28" viewBox="0 0 24 24" fill="white">
+        <path d="M12 0C5.373 0 0 5.373 0 12c0 2.121.555 4.193 1.608 6.026L0 
+        24l6.197-1.588A11.953 11.953 0 0012 24c6.627 0 12-5.373 
+        12-12S18.627 0 12 0z"/>
+        </svg>
+    </a>
+
+    <!-- footer -->
+    <footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Brand -->
+        <div class="footer-brand">
+            <h2>Ubaidillah</h2>
+            <p>Frontend Developer • UI Designer • Web Enthusiast</p>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-social">
+
+            <a href="https://www.instagram.com/abdurrahmanubaidillah?" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://www.tiktok.com/@baika26?" target="_blank">
+                <i class="fab fa-tiktok"></i>
+            </a>
+
+            <a href="https://github.com/Ubaidillah-cmd" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/abdur-rahman-ubaidillah-875608331" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+        <p>© 2026 Ubaidillah. All Rights Reserved.</p>
+    </div>
+
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
